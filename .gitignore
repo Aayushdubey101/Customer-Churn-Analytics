@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Env
+.env
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Reports / images
+reports/images/*
+!reports/images/.gitkeep
+
+# Tableau
+*.hyper
+*.twbx
+reports/tableau/*
+!reports/tableau/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
